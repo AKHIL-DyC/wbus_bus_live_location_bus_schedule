@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body {
+    background: linear-gradient(#05141B, #031219);
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+#logo{
+    position: absolute;
+    left: 0;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Big Shoulders Display";
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+
+span{
+    color: aqua;
+    font-family: "Big Shoulders Display";
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+header .title{
+    justify-content: center;
+    text-align: left;
+    margin-left: -700px;
+    font-size: 2em;
+}
+.cityview{
+    /* border-radius: 20px; */
+    transform: translateZ(-10px) scale(2);
+}
+.citybuilding{
+    transform: translateZ(4px) scale(1.1);
+}
+
+.cityview{
+    margin: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.citybuilding{
+    margin-top: 200px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.content {
+    background: linear-gradient(#05141B, #031219);
+    height: 500px;
+}
+
+section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .icon{
+    margin-left: -60px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+section ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+section ul li a{
+    font-family: "Pacifico";
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 2em;
+}
+
+section ul li .login:hover{
+    background-color: black;
+}
+
+.content a{
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0 9px aqua;
+}

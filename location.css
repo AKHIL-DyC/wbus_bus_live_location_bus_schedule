@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body {
+    background: linear-gradient(#7c0689, #031219);
+    background-attachment: fixed;
+}
+
+#logo{
+    position: absolute;
+    left: 0;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Big Shoulders Display";
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+span{
+    color: aqua;
+    font-family: "Big Shoulders Display";
+}
+
+section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .icon{
+    margin-left: -60px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+section ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+section ul li a{
+    font-family: "Pacifico";
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 2em;
+}
+
+p{
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+}
+
+input{
+    font-size: 24px;
+    margin-left: 40%;
+    background: none;
+    border: none;
+    border-bottom: 3px solid #7c0689;
+}

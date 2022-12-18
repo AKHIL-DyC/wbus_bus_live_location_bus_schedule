@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wBUS</title>
+    <link rel="stylesheet" href="busstyle.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="cityview.png" class="cityview" />
+        <img src="citybuilding.png" class="citybuilding" />
+        <h1 class="title">
+          Enter where <br />
+          you want to go
+        </h1>
+      </header>
+      <section>
+        <img src="logo.png" class="icon" />
+        <ul>
+          <a href="index.html" id="logo">w<span>BUS</span></a>
+          <li><a href="#" id="date"></a></li>
+          <li><a href="#" id="current-time"></a></li>
+        </ul>
+      </section>
+      <div class="content">
+        <form name="phonebook" action="." method="post">
+          <label>From:</label>
+          <input
+            type="text"
+            name="Start-destination"
+            placeholder="Where you are"
+          />
+          <br /><br /><br />
+          <label>To:</label>
+          <input
+            type="text"
+            name="Final-destinaton"
+            placeholder="Where to go"
+          />
+          <br /><br />
+          <input type="submit" value="submit" id="submit" />
+        </form>
+        <br><br>
+        <button onclick="window.open('http://localhost/3wb/data.php')" class="button">Track Bus</button>
+        <br><br>
+      </div>
+    </div>
+
+    <script src="busfind.js"></script>
+  </body>
+</html>

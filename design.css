@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body{
+    background: linear-gradient(#7c0689, #031219);
+    background-attachment: fixed;
+}
+
+input{
+    margin-top: 10%;
+    font-size: 24px;
+    border: 4px solid#fff;
+    background-color: #031219;
+    border-radius: 20px;
+    color: #fff;
+    margin-left : 50%;
+}
+
+label{
+    color: #fff;
+    font-size: 2em;
+    margin-left: 20%;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+button{
+    border: 4px solid #fff;
+    background-color: #031219;
+    color: #fff;
+    border-radius: 20px;
+    margin-left: 45%;
+    margin-top: 70px;
+    padding: 12px 30px;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+}
+p {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    margin-left: 40px;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 2em;
+    color: #fff;
+}

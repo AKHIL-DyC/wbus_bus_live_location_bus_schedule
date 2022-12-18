@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body{
+    background: linear-gradient(#551c14,#280d0a);
+    background-attachment: fixed;
+}
+
+td{
+    font-size: 2em;
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+.vehiclenumber{
+    margin-left: 50%;
+}
+
+table{
+    width: 100%;
+}
+
+#home{
+    text-decoration: none;
+    font-size: 2em;
+    color: #fff;
+    
+}
